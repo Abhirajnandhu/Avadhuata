@@ -1,6 +1,6 @@
 # How to start project
 
-## 1. git clone
+## 1. git clone https://github.com/Abhirajnandhu/Avadhuata.git
 
 ## 2. cd backend/
 
