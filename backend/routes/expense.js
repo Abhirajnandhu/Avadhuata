@@ -5,8 +5,8 @@ const jwt = require("jsonwebtoken");
 const router = express.Router();
 // Add a new expense
 router.post("/add", async (req, res) => {
-  const { user, date, amount, category, description } = req.body;
-  const token = req.headers ["token"];
+  const { user, date, name, amount, category, description } = req.body;
+  const token = req.headers["token"];
   console.log(token);
   const userobj = await jwt.verify(token, "secretkey");
   if (!userobj) {
@@ -16,6 +16,7 @@ router.post("/add", async (req, res) => {
     const expense = new Expense({
       user: userobj.id,
       date,
+      name,
       amount,
       category,
       description,
@@ -50,5 +51,3 @@ router.get("/", async (req, res) => {
 });
 
 module.exports = router;
-
-

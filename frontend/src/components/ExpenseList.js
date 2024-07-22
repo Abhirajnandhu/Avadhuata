@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getExpenses } from "../api";
-import "../styles/ExpenseList.css"
+import "../styles/ExpenseList.css";
 
 const ExpenseList = () => {
   const [expenses, setExpenses] = useState([]);
@@ -25,6 +25,7 @@ const ExpenseList = () => {
         <thead>
           <tr>
             <th>Date</th>
+            <th>Name</th>
             <th>Amount</th>
             <th>Category</th>
             <th>Description</th>
@@ -34,6 +35,7 @@ const ExpenseList = () => {
           {expenses.map((expense) => (
             <tr key={expense._id}>
               <td>{expense.date}</td>
+              <td>{expense.name}</td>
               <td>{expense.amount}</td>
               <td>{expense.category}</td>
               <td>{expense.description}</td>
@@ -46,5 +48,3 @@ const ExpenseList = () => {
 };
 
 export default ExpenseList;
-
-
