@@ -1,0 +1,38 @@
+.div4{
+    position: absolute;
+    margin-top: 150px;
+    background-color: rgba(128, 158, 171, 0.933);
+    box-shadow: 5px 5px 10px rgba(24, 22, 22, 0.931);
+    width: 700px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+#head1{
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+   margin-left: 250px;
+   margin-top: 10px;
+}
+
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 650px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+th{
+    background-color: rgb(243, 243, 243);
+}
+
+td{
+    background-color: burlywood;
+}
+
+
+
