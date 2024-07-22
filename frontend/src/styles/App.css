@@ -37,35 +37,33 @@
   }
 } */
 
-
-.nav1{
+.nav1 {
   margin-left: 1100px;
   margin-top: 20px;
   text-decoration: none;
   font-size: 22px;
   font-weight: 700;
   position: absolute;
-  
 }
 
-.reg,.log{
+.reg,
+.log {
   margin-right: 20px;
   text-decoration: none;
 }
 
-#head{
+#head {
   position: absolute;
   font-size: 38px;
   font-weight: 1200;
   color: white;
   text-shadow: 5px 5px 6px #000000;
   margin-left: 30px;
-  
 }
-body,html{
-  background-image: url("../../public/vecteezy_top-view-owe-mortgage-asian-woman-female-sitting-on-floor_25133137.jpg");
+body,
+html {
+  background-image: url("../../public/vecteezy_top-view-financial-owe-asian-young-man-sitting-suffer_21153054.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.8; */
 }
-
